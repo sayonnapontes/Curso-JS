@@ -23,17 +23,21 @@
 
 
     <script>
-        var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName('p')[1]
+        var corpo = window.document.body // variável corpo recebe o body
+        var p1 = window.document.getElementsByTagName('p')[1] // var p1 recebe o primeiro 'p'. Contamos começando pelo 0,1,2...
+        
         window.document.write(p1.innerText) 
         
         /*
-        
+        Se fosse para selecionar a div por ID de fomrma SIMPLES:
+
         var d = window.document.getElementById('msg')
         
         d.style.background = 'green'
         
         d.InnerText = 'Estou aguardando...'
+
+        div por ID de forma mais longa:
         
         window.document.getElementById('msg').innerText = 'Olá!'
         
